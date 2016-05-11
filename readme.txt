@@ -1,0 +1,1 @@
+[![Stories in Ready](https://badge.waffle.io/jonataneriksson/Slought-Newsletter.png?label=ready&title=Ready)](http://waffle.io/jonataneriksson/Slought-Newsletter)
