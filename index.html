@@ -1,26 +1,17 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html><head>
   <title></title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="robots" content="noindex,nofollow">
 
-  <!--[if mso]>
-  <style>
-  .spacer, .border, .column-top {mso-line-height-rule: exactly;}
-</style>
-<![endif]-->
-<meta name="robots" content="noindex,nofollow">
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- !Everything Else -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<!-- .wrapper
+
+-->
+
 <style type="text/css">
-
-.column { width:610px;}
-
-@media only screen and (max-width: 600px){
-  #Modes{ display:none; }
-  #Logo-Asset{ width:70%; height:auto;}
-  .column{ width:100% !important; }
-  .left-column{ width:100% !important; float:left; padding-right:0%;}
-  .right-column{ width:100% !important; float:left;}
-  #Logo-Asset {width: 70% !important; height: auto !important;}
-  img {width: 100% !important; height: auto !important;}
-}
 
 body{
   margin:0;
@@ -28,18 +19,32 @@ body{
   min-width:100%;
   word-spacing:-0.075em;
 }
+
 table{
   border-collapse:collapse;
   border-spacing:0;
+  -webkit-text-size-adjust:100%;
+  -ms-text-size-adjust:100%;
 }
+
 td{
   padding:0;
   vertical-align:top;
 }
+
+.column {
+  width: 610px;
+}
+
+.column table {
+  width: 610px;
+}
+
 .spacer,.border{
   font-size:1px;
   line-height:1px;
 }
+
 img{
   border:0;
   -ms-interpolation-mode:bicubic;
@@ -50,9 +55,11 @@ img{
   margin-bottom:25px;
 }
 .image img{
+  width: 100%;
   display:block;
 }
 .logo img{
+  width: 75%;
   display:block;
 }
 strong{
@@ -85,14 +92,14 @@ table {
   width: 100%;
   padding-bottom:30px;
 }
+
 .wrapper{
   width:100%;
   -webkit-text-size-adjust:100%;
   -ms-text-size-adjust:100%;
-}
-table.wrapper{
   table-layout:fixed;
 }
+
 .btn a{
   mso-hide:all;
 }
@@ -100,9 +107,17 @@ table.wrapper{
   background-color:#f8f8f8;
 }
 .intro{
+  width: 100%;
   font-size:21px;
   line-height:24px;
 }
+
+.content{
+  width: 100%;
+  font-size:14px;
+  line-height:18px;
+}
+
 .intro p{
   font-size:21px;
   line-height:24px;
@@ -129,23 +144,48 @@ body{
   line-height:16px;
   font-family:Arial, sans;
 }
-</style></head>
+
+@media only screen and (max-width: 600px){
+  #Modes{ display:none; }
+  #Logo-Asset{ width:70%; height:auto;}
+  .column{ width:100% !important; }
+  .left-column{ width:100% !important; float:left; padding-right:0%;}
+  .right-column{ width:100% !important; float:left;}
+  #Logo-Asset {width: 70% !important; height: auto !important;}
+  img:not(.static) {width: 100% !important; height: auto !important;}
+}
+
+</style>
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- !MS Office -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<!--[if mso]>
+<style>
+  .spacer, .border, .column-top {mso-line-height-rule: exactly;}
+  .column {width: 610px !important;}
+</style>
+<![endif]-->
+
+</head>
 <body bgcolor="">
 
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
   <!-- !Everything -->
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-    <table class="gray wrapper">
+    <table class="gray wrapper" bg-color="gray">
       <tbody>
         <tr>
           <td>
 
+            <center>
+
               <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
               <!-- !Main -->
               <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-              <center>
-              <table class="column padded" background="https://gallery.mailchimp.com/0b208887030f575536864d964/images/2b8a92a4-e04d-4a1d-aeb1-6fbaae2e9fa6.png" bg-color="gray">
+              <table class="padded column" background="https://gallery.mailchimp.com/0b208887030f575536864d964/images/2b8a92a4-e04d-4a1d-aeb1-6fbaae2e9fa6.png"><!-- class="column padded" background="https://gallery.mailchimp.com/0b208887030f575536864d964/images/2b8a92a4-e04d-4a1d-aeb1-6fbaae2e9fa6.png" -->
                 <tbody>
                   <tr>
                     <td>
@@ -182,6 +222,8 @@ body{
                       <!-- !Logo -->
                       <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
+
+
                       <table id="Logo" class="pad-bottom">
                         <tbody>
                           <tr>
@@ -191,6 +233,8 @@ body{
                           </tr>
                         </tbody>
                       </table>
+
+
 
                       <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
                       <!-- !Intro -->
@@ -214,10 +258,6 @@ body{
                       <!-- !Repeater -->
                       <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-                      <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-                      <!-- !Repeater  -->
-                      <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-
                       <table border="0" cellpadding="0" cellspacing="0" class="pad-bottom" mc:repeatable="repeater">
                         <tbody>
                           <tr>
@@ -226,7 +266,7 @@ body{
                             </td>
                           </tr>
                           <tr>
-                            <td mc:edit="content">
+                            <td class="content" mc:edit="content">
                               <p><strong>Care of the City</strong></p>
                               <br />
                               <p><strong>A conversation with Michael Stone-Richards and others about caring and the routines of habit which establish spaces as livable on Monday, April 18, 2016 from 6:30-8:30pm.</strong></p>
@@ -251,7 +291,7 @@ body{
                 </tbody>
               </table>
 
-              </center>
+            </center>
 
               <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
               <!-- !Footer -->
@@ -263,7 +303,7 @@ body{
                     <td>
                       <center>
 
-                        <table class="footer-content column padded">
+                        <table class="footer-content padded column">
                           <tbody>
                             <tr>
                               <td>
@@ -280,18 +320,18 @@ body{
                                   <br />
                                   <p>We value your financial contribution as one of many ways you can engage us and our programs. Further your commitment to our work and mission by making a secure online donation to Slought today.</p>
                                   <br />
-                                  <p><em>Donate »</em></p>
+                                  <p><em>Donate »</em><br /></p>
+                                  <br />
                                 </div>
                                 <div class="right-column" mc:edit="contact">
-                                  <p><strong>CONTACT</strong><br /></p>
+                                  <p><strong>CONTACT</strong><br /><br /></p>
                                   <p>4017 Walnut Street<br />
-                                    Philadelphia, PA 19104-3513<br />
+                                    Philadelphia, PA 19104-3513<br /><br />
                                     P <a href="tel:+12157014627"><font color="white">+1.215.701.4627</font></a><br />
                                     F <a href="tel:+12157645783"><font color="white">+1.215.764.5783</font></a><br /></p>
                                   <p><a href="mailto:info@slought.org"><font color="white">info@slought.org</font></a><br />
                                   <a href="http://slought.org"><font color="white">slought.org</font></a></p>
-                                  <p><a href="http://facebook.com/slought/">facebook</a><br />
-                                  <a href="http://twitter.com/slought/">twitter</a></p>
+                                  <p><br /><br /><a href="http://facebook.com/slought/"><img class="static" width="20" height="20" src="https://gallery.mailchimp.com/0b208887030f575536864d964/images/941df4b5-cba9-4330-9574-8c6f8849389a.png"></a>&emsp;<a href="http://twitter.com/slought/"><img class="static" width="20" height="20" src="https://gallery.mailchimp.com/0b208887030f575536864d964/images/9e5bc7a9-03f9-4684-b859-368e8e1c0adb.png"></a></p>
                                 </div>
                               </td>
                             </tr>
@@ -307,6 +347,8 @@ body{
               <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
               <!-- ! -->
               <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+              &nbsp;
 
           </td>
         </tr>
