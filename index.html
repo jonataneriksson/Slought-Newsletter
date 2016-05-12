@@ -7,7 +7,7 @@
 <!-- !Everything Else -->
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-<!-- .wrapper
+<!-- .wrapper {  table-layout:fixed; }
 
 -->
 
@@ -16,15 +16,21 @@
 body{
   margin:0;
   padding:0;
-  min-width:100%;
   word-spacing:-0.075em;
+  color:#505050;
+  font-size:12px;
+  line-height:16px;
+  font-family:Arial, sans;
+}
+
+.wrapper{
+  -webkit-text-size-adjust:100%;
+  -ms-text-size-adjust:100%;
 }
 
 table{
   border-collapse:collapse;
   border-spacing:0;
-  -webkit-text-size-adjust:100%;
-  -ms-text-size-adjust:100%;
 }
 
 td{
@@ -33,10 +39,6 @@ td{
 }
 
 .column {
-  width: 610px;
-}
-
-.column table {
   width: 610px;
 }
 
@@ -81,23 +83,11 @@ a,a:link{
   color:inherit;
 }
 .padded>tbody>tr>td{
-  padding:24px;
-}
-
-table {
-  width: 100%;
+  padding: 24px;
 }
 
 .pad-bottom td{
-  width: 100%;
   padding-bottom:30px;
-}
-
-.wrapper{
-  width:100%;
-  -webkit-text-size-adjust:100%;
-  -ms-text-size-adjust:100%;
-  table-layout:fixed;
 }
 
 .btn a{
@@ -107,13 +97,11 @@ table {
   background-color:#f8f8f8;
 }
 .intro{
-  width: 100%;
   font-size:21px;
   line-height:24px;
 }
 
 .content{
-  width: 100%;
   font-size:14px;
   line-height:18px;
 }
@@ -138,17 +126,12 @@ table {
   width:30%;
   float:left;
 }
-body{
-  color:#505050;
-  font-size:12px;
-  line-height:16px;
-  font-family:Arial, sans;
-}
 
 @media only screen and (max-width: 600px){
   #Modes{ display:none; }
   #Logo-Asset{ width:70%; height:auto;}
   .column{ width:100% !important; }
+  table { width:100% !important; }
   .left-column{ width:100% !important; float:left; padding-right:0%;}
   .right-column{ width:100% !important; float:left;}
   #Logo-Asset {width: 70% !important; height: auto !important;}
@@ -165,6 +148,7 @@ body{
 <style>
   .spacer, .border, .column-top {mso-line-height-rule: exactly;}
   .column {width: 610px !important;}
+  .wrapper {width:100%;}
 </style>
 <![endif]-->
 
@@ -175,7 +159,7 @@ body{
   <!-- !Everything -->
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-    <table class="gray wrapper" bg-color="gray">
+    <table class="gray wrapper" width="100%" bg-color="gray">
       <tbody>
         <tr>
           <td>
@@ -185,7 +169,7 @@ body{
               <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
               <!-- !Main -->
               <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-              <table class="padded column" background="https://gallery.mailchimp.com/0b208887030f575536864d964/images/2b8a92a4-e04d-4a1d-aeb1-6fbaae2e9fa6.png"><!-- class="column padded" background="https://gallery.mailchimp.com/0b208887030f575536864d964/images/2b8a92a4-e04d-4a1d-aeb1-6fbaae2e9fa6.png" -->
+              <table class="column padded" border="0" cellpadding="0" cellspacing="0" background="https://gallery.mailchimp.com/0b208887030f575536864d964/images/2b8a92a4-e04d-4a1d-aeb1-6fbaae2e9fa6.png"><!-- class="column padded" background="https://gallery.mailchimp.com/0b208887030f575536864d964/images/2b8a92a4-e04d-4a1d-aeb1-6fbaae2e9fa6.png" -->
                 <tbody>
                   <tr>
                     <td>
@@ -297,7 +281,7 @@ body{
               <!-- !Footer -->
               <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-              <table class="footer wrapper">
+              <table class="footer wrapper" width="100%">
                 <tbody>
                   <tr>
                     <td>
@@ -322,6 +306,7 @@ body{
                                   <br />
                                   <p><em>Donate »</em><br /></p>
                                   <br />
+                                  <br />
                                 </div>
                                 <div class="right-column" mc:edit="contact">
                                   <p><strong>CONTACT</strong><br /><br /></p>
@@ -333,6 +318,7 @@ body{
                                   <a href="http://slought.org"><font color="white">slought.org</font></a></p>
                                   <p><br /><br /><a href="http://facebook.com/slought/"><img class="static" width="20" height="20" src="https://gallery.mailchimp.com/0b208887030f575536864d964/images/941df4b5-cba9-4330-9574-8c6f8849389a.png"></a>&emsp;<a href="http://twitter.com/slought/"><img class="static" width="20" height="20" src="https://gallery.mailchimp.com/0b208887030f575536864d964/images/9e5bc7a9-03f9-4684-b859-368e8e1c0adb.png"></a></p>
                                 </div>
+                                <br />
                               </td>
                             </tr>
                           </tbody>
