@@ -2,9 +2,9 @@
 
 #Slough Newsletter Template for Mailchimp
 
-Editable HTML Newsletter template for [slought.org](http://slought.org) uploaded to  [Mailchimp](https://us3.admin.mailchimp.com/templates/).
+Editable HTML Newsletter template for [slought.org](http://slought.org). The contents of index.html file can be copied to Mailchimp from the [templates section](https://us3.admin.mailchimp.com/templates/).
 
-![Apple Mail](documentation/Apple-Mail.png)
+![Preview of the template in Apple Mail](documentation/Apple-Mail.png)
 
 ## Known Issues
 
