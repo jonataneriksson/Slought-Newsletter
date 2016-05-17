@@ -1,4 +1,4 @@
-[![Stories in Ready](https://badge.waffle.io/jonataneriksson/Slought-Newsletter.png?label=ready&title=Ready)](http://waffle.io/jonataneriksson/Slought-Newsletter)
+[![Stories in Backlog](https://badge.waffle.io/jonataneriksson/Slought-Newsletter.png?label=backlog&title=Backlog)](http://waffle.io/jonataneriksson/Slought-Newsletter) [![Stories in Ready](https://badge.waffle.io/jonataneriksson/Slought-Newsletter.png?label=ready&title=Ready)](http://waffle.io/jonataneriksson/Slought-Newsletter) [![Stories in In Progress](https://badge.waffle.io/jonataneriksson/Slought-Newsletter.png?label=in%20progress&title=In%20Progress)](http://waffle.io/jonataneriksson/Slought-Newsletter)
 
 #Slough Newsletter Template for Mailchimp
 
